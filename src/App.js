@@ -1,14 +1,9 @@
-import React from 'react'
-import { Box } from '@chakra-ui/react'
-import Home from './pages/Home'
+import React from "react";
 
+import FormCategoria from "./components/FormCategorie";
 
 const App = () => {
-  return (
-    <Box>
-      <Home/>
-    </Box>
-  )
-}
+  return <FormCategoria />;
+};
 
 export default App;
